@@ -4,7 +4,7 @@
   <PropertyGroup>
     <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
     <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
-    <ProjectGuid>{04B38907-55B0-4ADF-93F0-E692C6A54DE1}</ProjectGuid>
+    <ProjectGuid>{80ED5C52-0F41-461A-9487-7E5DC70CB94D}</ProjectGuid>
     <OutputType>Library</OutputType>
     <AppDesignerFolder>Properties</AppDesignerFolder>
     <RootNamespace>IoTModel</RootNamespace>

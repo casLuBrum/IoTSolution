@@ -1,26 +1,20 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
+﻿using System.Collections.Generic;
 using IoTModel;
 
 namespace IoTDAL
 {
-    class DispositivoDAO
+    public class DispositivoDAO
     {
         static internal List<Dispositivo> dispositivos = new List<Dispositivo>();
 
-        public int incluir(Dispositivo dispositivo)
-        {
+        public int incluir(Dispositivo dispositivo) {
             dispositivo.Id = dispositivos.Count + 1;
             dispositivo.Historico = new List<EstadoDispositivo>();
             dispositivos.Add(dispositivo);
             return dispositivo.Id;
         }
         public void alterar(Dispositivo dispositivo) { }
-        public Dispositivo obter(int id)
-        {
+        public Dispositivo obter(int id) {
             if (id <= dispositivos.Count)
             {
                 return dispositivos[id - 1];

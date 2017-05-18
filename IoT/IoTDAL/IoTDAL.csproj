@@ -4,7 +4,7 @@
   <PropertyGroup>
     <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
     <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
-    <ProjectGuid>{A0C43C70-3449-49C6-80A0-13C77AB2CEEB}</ProjectGuid>
+    <ProjectGuid>{37114A17-F9EB-4914-B737-A4CA708E9360}</ProjectGuid>
     <OutputType>Library</OutputType>
     <AppDesignerFolder>Properties</AppDesignerFolder>
     <RootNamespace>IoTDAL</RootNamespace>
@@ -41,11 +41,12 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="DispositivoDAO.cs" />
+    <Compile Include="EstadoDispositivoDAO.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <ItemGroup>
     <ProjectReference Include="..\IoTModel\IoTModel.csproj">
-      <Project>{04b38907-55b0-4adf-93f0-e692c6a54de1}</Project>
+      <Project>{80ed5c52-0f41-461a-9487-7e5dc70cb94d}</Project>
       <Name>IoTModel</Name>
     </ProjectReference>
   </ItemGroup>

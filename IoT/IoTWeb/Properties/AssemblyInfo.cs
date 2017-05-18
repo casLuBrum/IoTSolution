@@ -5,11 +5,11 @@ using System.Runtime.InteropServices;
 // General Information about an assembly is controlled through the following 
 // set of attributes. Change these attribute values to modify the information
 // associated with an assembly.
-[assembly: AssemblyTitle("IoTWeb")]
+[assembly: AssemblyTitle("IotWeb")]
 [assembly: AssemblyDescription("")]
 [assembly: AssemblyConfiguration("")]
 [assembly: AssemblyCompany("")]
-[assembly: AssemblyProduct("IoTWeb")]
+[assembly: AssemblyProduct("IotWeb")]
 [assembly: AssemblyCopyright("Copyright ©  2017")]
 [assembly: AssemblyTrademark("")]
 [assembly: AssemblyCulture("")]
@@ -20,7 +20,7 @@ using System.Runtime.InteropServices;
 [assembly: ComVisible(false)]
 
 // The following GUID is for the ID of the typelib if this project is exposed to COM
-[assembly: Guid("7cee5708-9028-4a4e-9ef1-22a64d7f6b71")]
+[assembly: Guid("63ea1d58-f26b-49fb-a03b-b600d0651c4c")]
 
 // Version information for an assembly consists of the following four values:
 //
